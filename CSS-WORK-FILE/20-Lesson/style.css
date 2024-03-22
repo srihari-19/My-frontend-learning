@@ -1,0 +1,15 @@
+.box{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: blue;
+    display: flex;
+    align-items:stretch
+
+}
+.box-item{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 1px solid black;
+} 

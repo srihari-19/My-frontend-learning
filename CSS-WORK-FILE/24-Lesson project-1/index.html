@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--For banner slider-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css">
+    <link rel="stylesheet" href="CSS/Style.css" class="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Main header-->
+        <header class="main-header">
+            <!--Logo Holder-->
+            <div class="logo-holder">
+                <a href="#">
+                    <img src="img/logoo.png" alt="cool business">
+                </a>
+            </div>
+            <!--Search bar-->
+            <div class="search-holder">
+                <form action="" method="get">
+                    <input type="search" name="s" placeholder="search for...">
+                    <button type="submit">search</button>
+                </form>
+            </div>
+        </header>
+        <!--Main Header-->
+        <nav class="main-menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a>
+                    <ul class="drop">
+                        <li><a href="#">Service-1</a>
+                        <li><a href="#">Service-2</a>
+                        <li><a href="#">Service-3</a>
+                    </ul>
+                </li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <!--banner slider-->
+        <section class="banner-slider">
+            <ul id="adaptive">
+                <li><img src="https://placehold.co/900x350" alt="Image-1"></li>
+                <li><img src="https://placehold.co/900x350" alt="Image-2"></li>
+                <li><img src="https://placehold.co/900x350" alt="Image-3"></li>
+            </ul>
+        </section>
+        <!--Content holder-->
+        <section class="content-holder">
+            <main class="content">
+                <h1>Main heading for this site</h1>
+                <h2>Sub heading </h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem aliquam repellendus dignissimos quisquam corporis quis neque magni exercitationem ullam eaque temporibus ut consectetur, veniam qui animi similique quibusdam ab!</p>
+                <p>Recusandae esse id in! Sed quod, quam eveniet ut perspiciatis magni molestiae totam natus aut, libero deleniti obcaecati voluptatum amet maiores quis, accusantium quidem deserunt eaque! Provident deserunt dolorum necessitatibus.</p>
+                <p>Dicta ut recusandae placeat itaque aliquid id mollitia, excepturi et quibusdam rerum tempore, deleniti assumenda quos accusamus quod nisi nihil eligendi atque adipisci dolores praesentium quidem. Quaerat asperiores error saepe!</p>
+            </main>
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>Follow as on</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://twitter.com/?lang=en" target="_blank">twitter</a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.linkedin.com" target="_blank">LinkedIN</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section> 
+        <section class="footer-widget-holder">
+            <div class="footer-widget">
+                <a href="#">
+                    <img src="img/logoo.png" alt="cool business">
+                </a>
+                <h3>Address</h3>
+                <Address>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </Address>
+            </div>
+
+            <div class="footer-widget">
+                <h4>Sitemap</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-widget">
+                <h4>Sitemap</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-widget">
+                <h4>Sitemap</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+            </div>
+        </section>
+        <!--Site footer-->
+        <footer class="site-footer">
+            <p><small>Copyright &copy;2025</small></p>
+        </footer>
+    </div> 
+    <!--For banner slider-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+    </script>
+</body>
+</html>

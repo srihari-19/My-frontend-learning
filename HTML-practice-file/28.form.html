@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tag practice</title>
+    <meta name="description" content="A simple sematic element one">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 8px
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="success.html" method="get">
+        <fieldset>
+            <legend>Regestration form</legend>
+        
+        <!--Name-->
+        <label for="e_name">Name:
+            <input 
+                name="e_name" 
+                id="e_name" 
+                type="text" 
+                required placeholder="Name">
+        </label>
+
+        <!--Email-->
+        <label for="e_email">Email:
+            <input 
+                name="e_email" 
+                id="e_email" 
+                type="email" 
+                required placeholder="example@gmail.com">
+        </label>
+
+         <!--Phone-->
+         <label for="e_phone">Phone NO:
+            <input 
+                name="e_phone"
+                id="e_phone"
+                type="tel" 
+                required placeholder="+918148231533">
+        </label>
+
+        
+        <!--Password-->
+        <label for="e_pass">Password:
+            <input 
+                name="e_pass"
+                id="e_pass"
+                type="password" 
+                required placeholder="Password">
+        </label>
+
+        
+        <!--URL-->
+        <label for="e_url">website:
+            <input 
+                name="e_url"
+                id="e_url"
+                type="url" 
+                required placeholder="https://primeinspire.com">
+        </label>
+
+         <!--Number-->
+        <label for="e_quantity">Quantity:
+            <input 
+                name="e_quantity"
+                id="e_quantity"
+                type="number">
+        
+        </label>
+
+        <!--Date-->
+        <label for="e_date">Date:
+            <input 
+                name="e_date"
+                id="e_date"
+                type="date"
+                required>
+        
+        </label>
+         
+        </label>
+        <!--date default-->
+        <label for="e_dates">Dates:
+           <input 
+               name="e_dates"
+               id="e_dates"
+               type="date"
+               required
+               value="2025-01-01">
+       
+        </label>
+    
+        
+        <!--date readonly-->
+        <label for="e_dates">Dates:
+            <input 
+                name="e_dates"
+                id="e_dates"
+                type="date"
+                required
+                value="2025-01-01"
+                readonly>
+        </label>
+
+    
+        <!--date disable-->
+        <label for="e_dates">Dates:
+            <input 
+                name="e_dates"
+                id="e_dates"
+                type="date"
+                required
+                value="2025-01-01"
+                disabled>
+        </label>
+ 
+        <!--Time-->  
+        <label for="e_time">Time:
+            <input 
+                name="e_time"
+                id="e_time"
+                type="time"
+                required>
+        
+        </label>
+
+
+        <!--Month-->
+        <label for="e_dates">Month:
+            <input 
+                name="e_month"
+                id="e_month"
+                type="month"
+                required>
+            </label>
+
+
+        <!--week-->
+        <label for="e_week">week:
+            <input 
+                name="e_week"
+                id="e_week"
+                type="week"
+                required>
+        </label>
+    
+        <!--date time Local-->
+        <label for="e_DTL">Datetime-local
+            <input 
+                name="e_DTL"
+                id="e_DTL"
+                type="datetime-local"
+                required>
+        </label>
+
+        <div>
+            <p>Select Gender</p>
+            <!--Radio button-->
+            <label for="e_male">
+                <input 
+                    name="e_gender"
+                    id="e_male"
+                    type="radio"
+                    value="Male">Male
+                </label>
+
+            <label for="e_female">
+                <input 
+                    name="e_gender"
+                    id="e_female"    
+                    type="radio"
+                    value="Female">Female 
+            </label>
+
+            <label for="e_other">
+                <input 
+                    name="e_gender"
+                    id="e_other"
+                    type="radio"
+                    value="Other">Other
+            </label>
+
+            <label for="e_pnts">
+                <input 
+                    name="e_gender"
+                    id="e_pnts"
+                    type="radio"
+                    value="Prefer not to say ">Prefer not to say 
+            </label>
+
+        </div>
+
+        <diV>
+            <p>Select the menu</p>
+            
+            <label for="e_Breakfast">
+                <input 
+                    name="e_food"
+                    id="e_Breakfast"
+                    type="checkbox"
+                    value="e_Breakfast">Breakfast 
+            </label>
+
+            <label for="e_Lunch">
+                <input 
+                    name="e_food"
+                    id="e_Lunch"
+                    type="checkbox"
+                    value="e_Lunch">Lunch 
+            </label>
+
+            <label for="e_Dinner">
+                <input 
+                    name="e_food"
+                    id="e_Dinner"
+                    type="checkbox"
+                    value="e_Dinner">Dinner 
+            </label>
+
+        </diV>
+        <!--Search bar-->
+        
+        <label for="e_search">
+            Search:
+            <input 
+                name="e_search"
+                id="e_search"
+                type="search"
+                placeholder="search for.."> 
+            <input type="submit" value="search">
+        </label>
+
+        <!--Upload-->
+        
+        <label for="e_upload">Upload:
+            
+            <input 
+                name="e_upload"-
+                id="e_upload"
+                type="file"
+                accept="image/*"
+                multiple> 
+            <input type="submit" value="Upload">
+        </label>
+
+        
+        <!--colour-->
+        <label for="e_colour">
+            colour: 
+            <input 
+                name="e_colour"-
+                id="e_colour"
+                type="color"
+                required> 
+        </label>
+            
+        <!--select list-->
+        <label for="e_country">
+            select country: 
+            <select name="e_country" id="e_country">
+                <option value="IN">INDIA</option>
+                <option value="US">UNITED STATE</option>
+                <option value="UK">UNITED KINGDOM</option>
+                <option value="BZ">BRAZILE</option>
+            </select>   
+        </label>
+
+
+         <!--Grouped select list-->
+         <label for="e_food_selection">
+            select food: 
+            <select name="e_food_selection" id="e_food_selection">
+                <optgroup label="Breakfast">
+                    <option value="Idly">Idly</option>
+                    <option value="Dosa">Dosa</option>
+                    <option value="rice">rice</option>
+                </optgroup>
+
+                <optgroup label="Lunch">
+                    <option value="rice">rice</option>
+                    <option value="chappthi">chappthi</option>
+                    <option value="parota">parota</option>
+                </optgroup>
+
+                <optgroup label="Dinner">
+                    <option value="rice">rice</option>
+                    <option value="Dosa">Dosa</option>
+                    <option value="parota">parota</option>
+                </optgroup>
+            </select>   
+        </label>
+
+                 <!--Data list for icecream-->
+                 <label for="e_icecream">
+                    select Icecream:
+                    <input list="icecream-flavour" name="e_icecream" id="e_icecream">
+
+                    <datalist id="icecream-flavour">
+                        <option value="venila">
+                        <option value="choclate">
+                        <option value="mate">
+                        <option value="coconut">
+                        <option value="strawberry">
+
+                    </datalist> 
+                    
+                 <!--Text area-->
+                 <label for="e_message">
+                    Message:
+                    <textarea name="e_message" id="e_message" cols="30" rows="5"></textarea>
+
+                <!--Text area-->
+                <label for="e_range">
+                    Range:
+                    <input type="range" name="e_range" id="e_range"
+                    min="0" max="100">
+                </label>
+
+                
+                <!--Image submit-->
+                <label for="e_fancy">
+                    <input
+                    type="image"
+                    src="https://primeinspire.com/wp-content/uploads/2023/05/send-fancy.png">
+                </label>
+                 <!--e_hidden-->
+                 <input type="hidden" name="e_hidden" id="e_hidden">
+
+                  <!--Reset-->
+                  <button type="reset">Reset</button>
+
+        <button type="submit">Click here</button>
+    </fieldset>
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+section{
+    color: red;
+}
+
+*{
+    color: lightblue;
+}
+
+p{
+    color: purple;
+}
+
+.example1{
+    color: blue;
+}
+
+#example{
+    color: goldenrod;
+}

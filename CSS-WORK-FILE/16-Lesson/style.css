@@ -1,0 +1,42 @@
+.box{
+    width: 500px;
+    height: 300pc;
+    margin: auto;
+    border: 1px solid brown;
+    position: relative;
+}
+
+.relative, .absolute, .fixed, .sticky {
+    width: 150px;
+    height: 100px;
+}
+
+.relative{
+    background-color: antiquewhite;
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+.absolute{
+    background-color: aqua;
+    position:absolute;
+    right: 10%;
+    bottom: 10%;
+
+
+}
+.fixed{
+    background-color: rgb(212, 122, 11);
+    width: 200px;
+    position: fixed;
+    top: 20px;
+    right: 50px;
+
+
+}
+.sticky{
+    background-color: cadetblue;
+    position: sticky;
+    top: 20px;
+    right: 10px;
+}

@@ -1,0 +1,15 @@
+.box{
+    width: 300px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    gap: 2px;
+
+
+}
+.box-item{
+    padding: 15px;
+    background-color: lightblue;
+    border: 1px solid black;
+} 

@@ -1,0 +1,20 @@
+.main-heading{
+    color: coral;
+}
+
+.sub-heading{
+    color: blue;
+}
+
+.article-box{
+    background-color:aqua ;
+}
+
+.article-heading{
+    color: purple;
+    font-style: italic;
+}
+
+#container{
+    width: 500px;
+}
